@@ -26,6 +26,19 @@
         <servlet-name>Validate</servlet-name>
         <url-pattern>/validate</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+  	<servlet-name>LogOut</servlet-name>
+  	<servlet-class>com.webapp.servlets.LogOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+  
+  	<welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
   
    <welcome-file-list>
         <welcome-file>index.html</welcome-file>
